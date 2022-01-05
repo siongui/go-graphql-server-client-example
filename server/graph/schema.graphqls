@@ -1,0 +1,23 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+"Description of Todo status"
+enum TodoStatus {
+     "Cancelled"
+    cancelled
+     "Cleared"
+    cleared
+     "Confirmed"
+    confirmed
+}
+
+type Mutation {
+    "Update todo status"
+    updateTodoStatus(
+        "Todo ID"
+        todoId: [String!]!,
+        "Todo Status"
+        status: TodoStatus!
+    ): String!
+}

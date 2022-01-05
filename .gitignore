@@ -1,2 +1,4 @@
 bin/
 pkg/
+server/graph/generated/
+server/graph/model/

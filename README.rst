@@ -37,6 +37,7 @@ References
 
 .. [1] `github.com/99designs/gqlgen <https://github.com/99designs/gqlgen>`_
 .. [2] `github.com/machinebox/graphql <https://github.com/machinebox/graphql>`_
+.. [3] `go - What is the correct shape of a curl POST request to a gqlgen GraphQL API? - Stack Overflow <https://stackoverflow.com/questions/54271405/what-is-the-correct-shape-of-a-curl-post-request-to-a-gqlgen-graphql-api>`_
 
 .. _Go: https://golang.org/
 .. _GraphQL: https://graphql.org/
