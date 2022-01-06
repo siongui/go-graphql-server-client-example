@@ -26,6 +26,39 @@ Development Environment:
   - `Go 1.17`_
 
 
+Usage
++++++
+
+After git clone this repo, generate and run server:
+
+.. code-block:: bash
+
+  $ cd /path/to/this/repo/
+  $ cd server/
+  # Install github.com/99designs/gqlgen
+  $ make install
+  # go generate server code
+  $ make generate
+  # Run server
+  $ make
+
+After server is running, you use curl to send test request to server:
+
+.. code-block:: bash
+
+  $ make curl
+
+You can also use client to send test request to server:
+
+.. code-block:: bash
+
+  $ cd /path/to/this/repo/
+  $ cd client/
+  $ make
+
+See Makefile in ``server/`` and ``client/`` directories for actual commands.
+
+
 UNLICENSE
 +++++++++
 
